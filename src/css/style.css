@@ -1,0 +1,49 @@
+html {
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+}
+
+body {
+    background-color:transparent;
+  }
+
+.h1-class {
+    text-align: center;
+    margin: 5%;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #A683E3;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex>div {
+    margin: 0 1rem 2rem 1rem;
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    outline: 1px solid rgb(134, 51, 143);
+}
+
+.para-align {
+    display: center;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
